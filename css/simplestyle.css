@@ -1,0 +1,403 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #7bacc5;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.5;
+    color: #801e2b;
+    text-align: center
+}
+
+header {
+    display: block;
+}
+
+footer {
+    font-size: 15px;
+    display: block;
+    background-color: #DDEAF0;
+}
+
+
+/*	Comment */
+
+.xxxlarge {
+    font-size: 87px!important;
+    color: #801e2b;
+    padding: 0px;
+}
+
+a {
+    color: Red;
+}
+
+.TestClass {
+    color: Black;
+    background-color: White;
+    text-align: left;
+}
+
+
+/*
+html,
+body {
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-color: #801e2b;
+    background-color: #7bacc5;
+    align: center
+}
+*/
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid #801e2b;
+    margin: 20px 20px;
+    padding: 20px
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+p {
+    text-align: center
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    display: table
+}
+
+.font-2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: .5;
+    color: #801e2b;
+}
+
+.left {
+    text-align: left;
+    float: left!important
+}
+
+.right {
+    text-align: right;
+    float: right!important
+}
+
+.logo {
+    width: 50%;
+    padding-bottom: 20px
+}
+
+
+/* Colors */
+
+.blue {
+    color: #7BACC5!important;
+    background-color: #000!important
+}
+
+.light-blue {
+    color: #DDEAF0!important;
+    background-color: #DDEAF0!important
+}
+
+.red {
+    color: #801e2b!important;
+    background-color: #DDEAF0!important
+}
+
+.red2 {
+    color: #801e2b!important;
+    background-color: #7BACC5!important
+}
+
+.light-red {
+    color: #EECED0!important;
+    background-color: #000!important
+}
+
+.tan {
+    color: #FFF3EA!important;
+    background-color: #000!important
+}
+
+.white {
+    color: #FFFFFF!important;
+    background-color: #801e2b!important
+}
+
+.black {
+    color: #000000!important;
+    background-color: #7BACC5!important
+}
+
+
+/* Padding */
+
+.padding-10 {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+
+/* Alignment */
+
+.left-align {
+    text-align: left!important
+}
+
+.right-align {
+    text-align: right!important
+}
+
+.justify {
+    text-align: justify!important
+}
+
+.center {
+    text-align: center!important;
+    background-color: #DDEAF0;
+}
+
+.third {
+    float: left;
+    width: 33.33333%;
+}
+
+.card-4,
+.hover-shadow:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row-padding {
+    padding: 0 8px
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.xlarge {
+    font-size: 24px!important
+}
+
+
+/* Table */
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    font: #801e2b;
+}
+
+table {
+    border: 3px solid;
+    border-color: #801e2b;
+    border-collapse: collapse;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    background-color: #DDEAF0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+th {
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    background-color: #801e2b;
+    padding: 15px;
+}
+
+td {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+
+/* Animate */
+
+.spin {
+    animation: w3-spin 2s infinite linear
+}
+
+@keyframes w3-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
